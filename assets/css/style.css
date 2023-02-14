@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* calculates the the width and height of elements: only 2 values(content-size and border-box)*/
+}
+
+header {
+    display: flex;
+    background-color: var(--third-color);
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 5px 5px 5px 35px;
+    margin: 8px 0 8px 0;
+    display: flex;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+header nav {
+    margin: 20px 40px 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.55vw;
+}
+
+header nav ul li {
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 0 4px;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+header nav ul li a:hover {
+    /* hover counter part to the above css rule */
+    background: var(--primary-color);
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.hero div img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+
+html {
+    background: url(../images/vecteezy_electric-ball-with-discharge-strikes-lightning_16963047\ -\ Copy.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main div h3 {
+    color: white;
+    border-right: 3px solid;
+    font-size: 30px;
+    padding: 0 5px 0 10px;
+    margin: 15px;
+    width: 20%;
+    text-align: right;
+    flex: 1;
+}
+
+.me {
+    flex: 5;
+    color: var(--primary-color);
+    margin: 15px;
+}
+
+.me p {
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+#project {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin-top: 190px;
+    font-size: 35px;
+    border: 3px solid rgba(38, 99, 117, 0.337);
+}
+
+#project2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin-top: 190px;
+    font-size: 35px;
+    border: 3px solid rgba(38, 99, 117, 0.337);
+}
+
+.projects {
+    flex: 5;
+    margin: 15px;
+}
+
+.projects img {
+    width: 95%;
+}
+
+.tags {
+    position: absolute;
+    top: 3;
+}
+
+.apps-row-one {
+    display: flex;
+    position: relative;
+}
+
+.image-left-margin {
+    margin-left: 18px;
+}
+
+.apps-row-one div img {
+    border: 3px solid var(--secondary-color);
+    max-width: 100%;
+    height: 300px;
+    width: 722px;
+}
+
+.apps-row-one div {
+    margin: 0 0 15px 0;
+}
+
+.apps-row-two {
+    display: flex;
+    position: relative;
+}
+
+.apps-row-two div img {
+    border: 3px solid var(--secondary-color);
+    max-width: 100%;
+    height: 300px;
+    width: 722px;
+}
+
+.apps-row-two div {
+    margin: 0 0 15px 0;
+}
