@@ -46,7 +46,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color:white;
+    color: white;
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
@@ -185,19 +185,87 @@ html {
     font-size: 20px;
     margin: 20px;
     justify-content: space-evenly;
-  }
+}
 
-  .item {
+.item {
     font-size: larger;
     display: inline-block;
     margin: 20px 10px 10px 10px;
-  }
-  
-  .item a {
-    color: white;
-  }
+}
 
-  .first-div h4 {
+.item a {
+    color: white;
+}
+
+.first-div h4 {
     color: white;
     text-decoration: underline;
-  }
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2,
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        justify-content: center;
+    }
+
+    .first-div {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h2 {
+        opacity: 0;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+        align-items: center;
+        width: 100%;
+    }
+}
